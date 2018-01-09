@@ -1,0 +1,1773 @@
+{
+  "data": {
+    "droplets": [
+      {
+        "backup_ids": [], 
+        "created_at": "2017-04-25T14:53:43Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 46875696, 
+        "image": {
+          "created_at": "2017-04-17T16:04:33Z", 
+          "distribution": "Ubuntu", 
+          "id": 24231613, 
+          "min_disk_size": 20, 
+          "name": "16.04.2 x64", 
+          "public": false, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.29, 
+          "slug": null, 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "arborian", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "162.243.60.1", 
+              "ip_address": "162.243.60.50", 
+              "netmask": "255.255.255.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent"
+          ], 
+          "name": "New York 2", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "4gb", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "16gb", 
+            "m-16gb", 
+            "m-32gb", 
+            "32gb", 
+            "48gb", 
+            "64gb"
+          ], 
+          "slug": "nyc2"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2018-01-08T09:16:00Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 77985164, 
+        "image": {
+          "created_at": "2018-01-07T00:42:58Z", 
+          "distribution": "Ubuntu", 
+          "id": 30717777, 
+          "min_disk_size": 20, 
+          "name": "16.04.3 x64", 
+          "public": true, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.3, 
+          "slug": "ubuntu-16-04-x64", 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "arborian-01.class.arborian.com", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "139.59.64.1", 
+              "ip_address": "139.59.70.170", 
+              "netmask": "255.255.240.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "Bangalore 1", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "blr1"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [
+          "web"
+        ], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2018-01-08T09:16:00Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 77985165, 
+        "image": {
+          "created_at": "2018-01-07T00:42:58Z", 
+          "distribution": "Ubuntu", 
+          "id": 30717777, 
+          "min_disk_size": 20, 
+          "name": "16.04.3 x64", 
+          "public": true, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.3, 
+          "slug": "ubuntu-16-04-x64", 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "arborian-02.class.arborian.com", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "139.59.64.1", 
+              "ip_address": "139.59.72.54", 
+              "netmask": "255.255.240.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "Bangalore 1", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "blr1"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [
+          "web"
+        ], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2018-01-08T09:16:00Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 77985166, 
+        "image": {
+          "created_at": "2018-01-07T00:42:58Z", 
+          "distribution": "Ubuntu", 
+          "id": 30717777, 
+          "min_disk_size": 20, 
+          "name": "16.04.3 x64", 
+          "public": true, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.3, 
+          "slug": "ubuntu-16-04-x64", 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "arborian-03.class.arborian.com", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "139.59.64.1", 
+              "ip_address": "139.59.68.3", 
+              "netmask": "255.255.240.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "Bangalore 1", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "blr1"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [
+          "db"
+        ], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2018-01-08T09:16:00Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 77985167, 
+        "image": {
+          "created_at": "2018-01-07T00:42:58Z", 
+          "distribution": "Ubuntu", 
+          "id": 30717777, 
+          "min_disk_size": 20, 
+          "name": "16.04.3 x64", 
+          "public": true, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.3, 
+          "slug": "ubuntu-16-04-x64", 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "arborian-04.class.arborian.com", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "139.59.64.1", 
+              "ip_address": "139.59.68.107", 
+              "netmask": "255.255.240.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "Bangalore 1", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "blr1"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [
+          "db"
+        ], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2018-01-08T09:16:00Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 77985168, 
+        "image": {
+          "created_at": "2018-01-07T00:42:58Z", 
+          "distribution": "Ubuntu", 
+          "id": 30717777, 
+          "min_disk_size": 20, 
+          "name": "16.04.3 x64", 
+          "public": true, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.3, 
+          "slug": "ubuntu-16-04-x64", 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "arborian-05.class.arborian.com", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "139.59.64.1", 
+              "ip_address": "139.59.70.100", 
+              "netmask": "255.255.240.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "Bangalore 1", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "blr1"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [
+          "app"
+        ], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2018-01-08T09:16:00Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 77985169, 
+        "image": {
+          "created_at": "2018-01-07T00:42:58Z", 
+          "distribution": "Ubuntu", 
+          "id": 30717777, 
+          "min_disk_size": 20, 
+          "name": "16.04.3 x64", 
+          "public": true, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.3, 
+          "slug": "ubuntu-16-04-x64", 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "arborian-06.class.arborian.com", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "139.59.0.1", 
+              "ip_address": "139.59.12.220", 
+              "netmask": "255.255.240.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "Bangalore 1", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "blr1"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [
+          "app"
+        ], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }
+    ]
+  }, 
+  "inventory": {
+    "46875696": [
+      "162.243.60.50"
+    ], 
+    "77985164": [
+      "139.59.70.170"
+    ], 
+    "77985165": [
+      "139.59.72.54"
+    ], 
+    "77985166": [
+      "139.59.68.3"
+    ], 
+    "77985167": [
+      "139.59.68.107"
+    ], 
+    "77985168": [
+      "139.59.70.100"
+    ], 
+    "77985169": [
+      "139.59.12.220"
+    ], 
+    "_meta": {
+      "hostvars": {
+        "139.59.12.220": {
+          "do_backup_ids": [], 
+          "do_created_at": "2018-01-08T09:16:00Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 77985169, 
+          "do_image": {
+            "created_at": "2018-01-07T00:42:58Z", 
+            "distribution": "Ubuntu", 
+            "id": 30717777, 
+            "min_disk_size": 20, 
+            "name": "16.04.3 x64", 
+            "public": true, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.3, 
+            "slug": "ubuntu-16-04-x64", 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "arborian-06.class.arborian.com", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "139.59.0.1", 
+                "ip_address": "139.59.12.220", 
+                "netmask": "255.255.240.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "Bangalore 1", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "blr1"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [
+            "app"
+          ], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "139.59.68.107": {
+          "do_backup_ids": [], 
+          "do_created_at": "2018-01-08T09:16:00Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 77985167, 
+          "do_image": {
+            "created_at": "2018-01-07T00:42:58Z", 
+            "distribution": "Ubuntu", 
+            "id": 30717777, 
+            "min_disk_size": 20, 
+            "name": "16.04.3 x64", 
+            "public": true, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.3, 
+            "slug": "ubuntu-16-04-x64", 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "arborian-04.class.arborian.com", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "139.59.64.1", 
+                "ip_address": "139.59.68.107", 
+                "netmask": "255.255.240.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "Bangalore 1", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "blr1"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [
+            "db"
+          ], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "139.59.68.3": {
+          "do_backup_ids": [], 
+          "do_created_at": "2018-01-08T09:16:00Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 77985166, 
+          "do_image": {
+            "created_at": "2018-01-07T00:42:58Z", 
+            "distribution": "Ubuntu", 
+            "id": 30717777, 
+            "min_disk_size": 20, 
+            "name": "16.04.3 x64", 
+            "public": true, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.3, 
+            "slug": "ubuntu-16-04-x64", 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "arborian-03.class.arborian.com", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "139.59.64.1", 
+                "ip_address": "139.59.68.3", 
+                "netmask": "255.255.240.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "Bangalore 1", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "blr1"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [
+            "db"
+          ], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "139.59.70.100": {
+          "do_backup_ids": [], 
+          "do_created_at": "2018-01-08T09:16:00Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 77985168, 
+          "do_image": {
+            "created_at": "2018-01-07T00:42:58Z", 
+            "distribution": "Ubuntu", 
+            "id": 30717777, 
+            "min_disk_size": 20, 
+            "name": "16.04.3 x64", 
+            "public": true, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.3, 
+            "slug": "ubuntu-16-04-x64", 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "arborian-05.class.arborian.com", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "139.59.64.1", 
+                "ip_address": "139.59.70.100", 
+                "netmask": "255.255.240.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "Bangalore 1", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "blr1"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [
+            "app"
+          ], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "139.59.70.170": {
+          "do_backup_ids": [], 
+          "do_created_at": "2018-01-08T09:16:00Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 77985164, 
+          "do_image": {
+            "created_at": "2018-01-07T00:42:58Z", 
+            "distribution": "Ubuntu", 
+            "id": 30717777, 
+            "min_disk_size": 20, 
+            "name": "16.04.3 x64", 
+            "public": true, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.3, 
+            "slug": "ubuntu-16-04-x64", 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "arborian-01.class.arborian.com", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "139.59.64.1", 
+                "ip_address": "139.59.70.170", 
+                "netmask": "255.255.240.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "Bangalore 1", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "blr1"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [
+            "web"
+          ], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "139.59.72.54": {
+          "do_backup_ids": [], 
+          "do_created_at": "2018-01-08T09:16:00Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 77985165, 
+          "do_image": {
+            "created_at": "2018-01-07T00:42:58Z", 
+            "distribution": "Ubuntu", 
+            "id": 30717777, 
+            "min_disk_size": 20, 
+            "name": "16.04.3 x64", 
+            "public": true, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.3, 
+            "slug": "ubuntu-16-04-x64", 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "arborian-02.class.arborian.com", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "139.59.64.1", 
+                "ip_address": "139.59.72.54", 
+                "netmask": "255.255.240.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "Bangalore 1", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "blr1"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [
+            "web"
+          ], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "162.243.60.50": {
+          "do_backup_ids": [], 
+          "do_created_at": "2017-04-25T14:53:43Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 46875696, 
+          "do_image": {
+            "created_at": "2017-04-17T16:04:33Z", 
+            "distribution": "Ubuntu", 
+            "id": 24231613, 
+            "min_disk_size": 20, 
+            "name": "16.04.2 x64", 
+            "public": false, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.29, 
+            "slug": null, 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "arborian", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "162.243.60.1", 
+                "ip_address": "162.243.60.50", 
+                "netmask": "255.255.255.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent"
+            ], 
+            "name": "New York 2", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "4gb", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "16gb", 
+              "m-16gb", 
+              "m-32gb", 
+              "32gb", 
+              "48gb", 
+              "64gb"
+            ], 
+            "slug": "nyc2"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }
+      }
+    }, 
+    "all": {
+      "hosts": [
+        "162.243.60.50", 
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "app": {
+      "hosts": [
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "arborian": [
+      "162.243.60.50"
+    ], 
+    "arborian-01.class.arborian.com": [
+      "139.59.70.170"
+    ], 
+    "arborian-02.class.arborian.com": [
+      "139.59.72.54"
+    ], 
+    "arborian-03.class.arborian.com": [
+      "139.59.68.3"
+    ], 
+    "arborian-04.class.arborian.com": [
+      "139.59.68.107"
+    ], 
+    "arborian-05.class.arborian.com": [
+      "139.59.70.100"
+    ], 
+    "arborian-06.class.arborian.com": [
+      "139.59.12.220"
+    ], 
+    "db": {
+      "hosts": [
+        "139.59.68.3", 
+        "139.59.68.107"
+      ], 
+      "vars": {}
+    }, 
+    "distro_Ubuntu": {
+      "hosts": [
+        "162.243.60.50", 
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "image_16.04.2_x64": {
+      "hosts": [
+        "162.243.60.50"
+      ], 
+      "vars": {}
+    }, 
+    "image_16.04.3_x64": {
+      "hosts": [
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "image_24231613": {
+      "hosts": [
+        "162.243.60.50"
+      ], 
+      "vars": {}
+    }, 
+    "image_30717777": {
+      "hosts": [
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "image_ubuntu-16-04-x64": {
+      "hosts": [
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "region_blr1": {
+      "hosts": [
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "region_nyc2": {
+      "hosts": [
+        "162.243.60.50"
+      ], 
+      "vars": {}
+    }, 
+    "size_512mb": {
+      "hosts": [
+        "162.243.60.50", 
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "status_active": {
+      "hosts": [
+        "162.243.60.50", 
+        "139.59.70.170", 
+        "139.59.72.54", 
+        "139.59.68.3", 
+        "139.59.68.107", 
+        "139.59.70.100", 
+        "139.59.12.220"
+      ], 
+      "vars": {}
+    }, 
+    "web": {
+      "hosts": [
+        "139.59.70.170", 
+        "139.59.72.54"
+      ], 
+      "vars": {}
+    }
+  }
+}
